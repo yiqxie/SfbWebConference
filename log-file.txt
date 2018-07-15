@@ -1,0 +1,36 @@
+[Header]\r\n2017-03-30 06:11:24,335 [1] INFO  d:\log\Plugin_Log_2017033006.log [(null)]  - Found Certificate [Skype for Business Server 2015 Default certificate 2/28/2017] in Chain.
+2017-03-30 06:11:24,388 [1] INFO  d:\log\Plugin_Log_2017033006.log [(null)]  - Starting Platform.
+2017-03-30 06:11:32,678 [5] INFO  d:\log\Plugin_Log_2017033006.log [(null)]  - Platform Startup.
+2017-03-30 06:11:41,278 [9] DEBUG d:\log\Plugin_Log_2017033006.log [(null)]  - Initialize SFBConference.
+2017-03-30 06:11:41,287 [9] ERROR d:\log\Plugin_Log_2017033006.log [(null)]  - Initialize IM Conversation Helper Failed.
+2017-03-30 06:15:18,027 [9] INFO  d:\log\Plugin_Log_2017033006.log [(null)]  - Find User Endpoint [sip:peter@yiqxie.pw] from store.
+2017-03-30 06:15:41,194 [9] ERROR d:\log\Plugin_Log_2017033006.log [(null)]  - GetUserEndpoint
+System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+   at SFBConference.Globals.SFBConferenceGlobals.GetUserEndpoint(SFBConferenceHandlers& handler, SFBUserAccount user) in E:\SkypeProject\SFBWebService\SFBWebService\Globals\SFBConferenceGlobals.cs:line 341
+2017-03-30 06:25:01,525 [9] INFO  d:\log\Plugin_Log_2017033006.log [(null)]  - Start Creating User Endpoint [sip:peter@yiqxie.pw].
+2017-03-30 06:25:13,511 [9] INFO  d:\log\Plugin_Log_2017033006.log [(null)]  - Create User Endpoint [sip:peter@yiqxie.pw].
+[Header]\r\n2017-03-30 06:37:07,331 [1] INFO  Plugin_Log_2017033006.log [(null)]  - Found Certificate [Skype for Business Server 2015 Default certificate 2/28/2017] in Chain.
+2017-03-30 06:37:18,400 [1] INFO  Plugin_Log_2017033006.log [(null)]  - Starting Platform.
+2017-03-30 06:37:32,583 [6] INFO  Plugin_Log_2017033006.log [(null)]  - Platform Startup.
+[Header]\r\n2017-03-30 06:50:49,789 [1] INFO  Plugin_Log_2017033006.log [(null)]  - Found Certificate [Skype for Business Server 2015 Default certificate 2/28/2017] in Chain.
+2017-03-30 06:50:49,873 [1] INFO  Plugin_Log_2017033006.log [(null)]  - Starting Platform.
+2017-03-30 06:50:58,403 [5] INFO  Plugin_Log_2017033006.log [(null)]  - Platform Startup.
+[Header]\r\n2017-03-30 06:56:12,963 [1] INFO  e:\logs\Plugin_Log_2017033006.log [(null)]  - Found Certificate [Skype for Business Server 2015 Default certificate 2/28/2017] in Chain.
+2017-03-30 06:56:13,070 [1] INFO  e:\logs\Plugin_Log_2017033006.log [(null)]  - Starting Platform.
+2017-03-30 06:56:22,068 [6] INFO  e:\logs\Plugin_Log_2017033006.log [(null)]  - Platform Startup.
+2017-03-30 06:57:10,076 [5] DEBUG e:\logs\Plugin_Log_2017033006.log [(null)]  - Initialize SFBConference.
+2017-03-30 06:57:10,078 [5] ERROR e:\logs\Plugin_Log_2017033006.log [(null)]  - Initialize IM Conversation Helper Failed.
+2017-03-30 06:57:14,532 [5] INFO  e:\logs\Plugin_Log_2017033006.log [(null)]  - Find User Endpoint [sip:peter@yiqxie.pw] from store.
+2017-03-30 06:57:16,176 [5] ERROR e:\logs\Plugin_Log_2017033006.log [(null)]  - GetUserEndpoint
+System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+   at SFBConference.Globals.SFBConferenceGlobals.GetUserEndpoint(SFBConferenceHandlers& handler, SFBUserAccount user) in E:\SkypeProject\SFBWebService\SFBWebService\Globals\SFBConferenceGlobals.cs:line 341
+2017-03-30 06:57:16,179 [5] INFO  e:\logs\Plugin_Log_2017033006.log [(null)]  - Start Creating User Endpoint [sip:peter@yiqxie.pw].
+2017-03-30 06:57:16,186 [5] INFO  e:\logs\Plugin_Log_2017033006.log [(null)]  - Create User Endpoint [sip:peter@yiqxie.pw].
+2017-03-30 06:57:34,345 [5] INFO  e:\logs\Plugin_Log_2017033006.log [(null)]  - Start Schedule Online Conference for User [sip:peter@yiqxie.pw].
+2017-03-30 06:57:37,365 [15] DEBUG e:\logs\Plugin_Log_2017033006.log [(null)]  - SIP Response [null]
+2017-03-30 06:57:37,372 [15] INFO  e:\logs\Plugin_Log_2017033006.log [(null)]  - User Endpoint [sip:peter@yiqxie.pw] Established Successfully.
+2017-03-30 06:57:39,595 [12] DEBUG e:\logs\Plugin_Log_2017033006.log [(null)]  - Conference Created [{"OrganizerUri":"sip:peter@yiqxie.pw","ConferenceId":"9232BDW6","WebUrl":"https://meet.yiqxie.pw/peter/9232BDW6?key=8543254972","ConferenceUri":"sip:peter@yiqxie.pw;gruu;opaque=app:conf:focus:id:9232BDW6","Subject":"Conference Test","SchedulingTemplate":0,"AccessLevel":1,"AutomaticLeaderAssignment":32768,"AttendanceAnnouncementsStatus":1,"LobbyBypass":1,"Description":"test for the conference","Passcode":"8543254972","IsPasscodeOptional":true,"ExpiryTime":"2017-04-30T05:26:32Z","IsActive":false,"LastUpdate":"2017-03-30T06:57:38.447Z","OrganizerData":"","ParticipantData":"","Participants":[{"Uri":"sip:jet@yiqxie.pw","Role":1},{"Uri":"sip:jesse@yiqxie.pw","Role":1}],"Mcus":[{"McuType":"chat","Settings":""},{"McuType":"audio-video","Settings":""},{"McuType":"applicationsharing","Settings":""}],"PhoneInformation":null}]
+2017-03-30 06:57:39,596 [12] INFO  e:\logs\Plugin_Log_2017033006.log [(null)]  - Schedule Online Conference Successfully [9232BDW6].
+2017-03-30 06:57:39,603 [5] DEBUG e:\logs\Plugin_Log_2017033006.log [(null)]  - Scheduled Online Conference [sip:peter@yiqxie.pw;gruu;opaque=app:conf:focus:id:9232BDW6]
